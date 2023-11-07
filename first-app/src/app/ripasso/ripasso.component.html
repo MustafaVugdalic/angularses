@@ -1,0 +1,8 @@
+<p>Componenete ripasso</p>
+<p>Sono {{nome }} {{cognome}} e studio {{materia}}</p>
+<div *ngIf="studenti.length > 0">
+<h2>Studenti della classe:</h2>
+<ol>
+    <li *ngFor="let nomeStudente of studenti">{{nomeStudente}}</li>
+</ol>
+</div>

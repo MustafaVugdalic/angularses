@@ -1,0 +1,4 @@
+<p>Esempio di comunicazione parent => child</p>
+<app-out-child (ehiNuovoMessaggio)="aggiungiMessaggio($event)" ></app-out-child>
+<app-in-child [messaggiDaVisualizzare]="messaggi"></app-in-child>
+
